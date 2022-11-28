@@ -1,0 +1,9 @@
+.courses{
+    margin-top:2rem;
+}
+/*=============================MEDIA QUERIES (PHONES) END=============================*/
+@media screen and (max-width:600px){
+    .footer_1 img{
+        display:none;
+    }
+}

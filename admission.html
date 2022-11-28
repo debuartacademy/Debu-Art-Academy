@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission | Debu Art Academy</title>
+
+    <!--------------FAVICON START-------------->
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+   <!--------------FAVICON END-------------->
+
+   <!--------------FONTAWESOME ICON START-------------->
+   <script src="https://kit.fontawesome.com/815d523613.js" crossorigin="anonymous"></script>
+   <!--------------FONTAWESOME ICON END-------------->
+
+   <!--------------GOOGLE-FONT (MONTSERRAT)START-------------->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">
+    <!--------------GOOGLE-FONT (MONTSERRAT)END-------------->
+
+    <!--------------SWIPERJS START-------------->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!--------------SWIPERJS END-------------->
+
+<link rel="stylesheet" href="floating-wpp.min.css">
+
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" type="text/css" href="admission.css">
+
+</head>
+<body>
+   <!--------------NAVBAR START-------------->
+   <nav>
+    <div class="container nav_container">
+        <a href="index.html"><img src="images/logo.png" alt="logo" style="margin-left:0; width:80%;"></a>
+        <ul class="nav_menu">
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#" target="_blank">Blogs</a></li>
+            
+        </ul>
+        <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+        <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+</nav>
+   <!--------------NAVBAR END-------------->
+    
+   <!----------------ONLINE ADMISSION FORM SEACTION START---------------->
+   <h2 style="margin-top:8rem; text-align:center;">🅾🅽 🅻 🅸 🅽 🅴 &nbsp;&nbsp;&nbsp; 🅰🅳 🅼 🅸 🆂 🆂 🅸🅾🅽 &nbsp;&nbsp;&nbsp; 🅵🅾🆁 🅼</h2>
+   <p style="text-align:center; color:#f9a826;">Best Painting & Pencil Drawing & Oil Painting Training Institute in West Bengal</p><br>
+   <div class="testbox">
+       <div class="form_cover">
+    <form action="https://formspree.io/f/xyyvakka" method="POST">
+      <div class="banner" style="background:url('images/admission.svg'); background-repeat: no-repeat; background-size: contain; background-position: center;">
+      </div><br><br>
+      <div class="item">
+        <p>Name</p>
+        <div class="name-item">
+          <input type="text" name="First" placeholder="First" required/>
+          <input type="text" name="Last" placeholder="Last" required/>
+        </div>
+      </div>
+      <div class="item">
+        <p>Birth Date</p>
+        <input type="date" name="bdate" required/>
+        <i class="fa-solid fa-calendar-days"></i>
+      </div>
+      <div class="question">
+        <p>Sex</p>
+        <div class="question-answer">
+          <input type="radio" value="none" id="radio_30" name="gender" required/>
+          <label for="radio_30" class="radio"><span>Male</span></label>
+          <input type="radio" value="none" id="radio_40" name="gender" required/>
+          <label for="radio_40" class="radio"><span>Female</span></label>
+          <input type="radio" value="none" id="radio_80" name="gender" required/>
+          <label for="radio_80" class="radio"><span>Prefer not to sey</span></label>
+        </div>
+      </div>
+      <div class="item">
+        <p>Please describe yourself</p>
+        <textarea rows="3"></textarea>
+      </div>
+      
+      <div class="item">
+        <p>Phone</p>
+        <input type="text" name="name" required/>
+      </div>
+      <div class="item">
+        <p>Email</p>
+        <input type="text" name="name" required/>
+      </div>
+      <div class="item">
+        <p>Address</p>
+        <input type="text" name="name" placeholder="Street address" required/>
+        <div class="city-item">
+          <input type="text" name="name" placeholder="Postal Code" required/>
+        </div>
+      </div>
+      <div class="question">
+        <p>Do you study?</p>
+        <div class="question-answer">
+          <input type="radio" value="none" id="radio_3" name="study" required/>
+          <label for="radio_3" class="radio"><span>Yes</span></label>
+          <input type="radio" value="none" id="radio_4" name="study" required/>
+          <label for="radio_4" class="radio"><span>No</span></label>
+        </div>
+      </div>
+      <div class="question">
+        <p>High School</p>
+        <div class="question-answer">
+          <input type="radio" value="none" id="radio_9" name="school" required/>
+          <label for="radio_9" class="radio"><span>Yes</span></label>
+          <input type="radio" value="none" id="radio_10" name="school" required/>
+          <label for="radio_10" class="radio"><span>No</span></label>
+        </div>
+      </div>
+      <div class="question">
+        <p>College</p>
+        <div class="question-answer">
+          <input type="radio" value="none" id="radio_11" name="college" required/>
+          <label for="radio_11" class="radio"><span>Yes</span></label>
+          <input type="radio" value="none" id="radio_12" name="college" required/>
+          <label for="radio_12" class="radio"><span>No</span></label>
+        </div>
+      </div> 
+      
+      <div class="item">
+        <label for="choose">Choose Course </label>
+        <select id="choose">
+          <option value="">Pencil Drawing</option>
+          <option value="1">Sketching</option>
+          <option value="2">Painting</option>
+          <option value="3">Figure Drawing</option>
+          <option value="4" selected>Cartoon Drawing</option>
+          <option value="2">Colored Pencil Drawing</option>
+          <option value="5">Oil Painting</option>
+          <option value="5">Watercolor Painting</option>
+          <option value="5">Human Sketching</option>
+          <option value="5">Drawing Basics</option>
+          <option value="5">Watercolor Protrait</option>
+          <option value="5">Commision Art Work</option>
+          <!--<option value="5"></option>-->
+        </select>
+      </div>
+      <div class="btn-block">
+        <button type="submit" href="/">Apply</button>
+      </div>
+    </form>
+    </div>
+  </div>
+ <!----------------ONLINE ADMISSION FORM SEACTION END---------------->
+
+
+<!--ONLINE PAYMENT SECTION START-->
+<br><br><br>
+<p style="text-decoration:underline; text-align:center; font-size:20px;">Mizoram, Nagaland, Tripura, Sikkim and West Bengal (Except Kolkata Zone)</p>
+<br>
+    <p style="text-align:center; font-size:25px;"><b style="background-color:white; color:tomato;">NOTE :</b> <span style="background-color:tomato; color:white;">If you do not belong from the above mentioned states then please ignore this and contact with us</span></p><br>
+    <br><br>
+<div class="column">
+    <div class="column1">
+        <h2 style="text-align:center;">FOR INDIAN CLASSICAL DANCE / INSTRUMENTS / MUSIC / RECTIATION & PAINTING</h2><br><br>
+        <table>
+            <tr style="text-align:center;">
+                <th>No.</th>
+                <th>Year</th>
+                <th>Total Fees</th>
+            </tr>
+            <tr style="text-align:center;">
+                <td>1</td>
+                <td>Adya</td>
+                <td>150</td>
+            </tr>
+            <tr style="text-align:center;">
+                <td>2</td>
+                <td>Madhya</td>
+                <td>195</td>
+            </tr>
+            <tr style="text-align:center;">
+                <td>3</td>
+                <td>Purna</td>
+                <td>195</td>
+            </tr>
+            <tr style="text-align:center;">
+                <td>4</td>
+                <td>1st</td>
+                <td>215</td>
+            </tr>
+            <tr style="text-align:center;">
+                <td>5</td>
+                <td>2nd</td>
+                <td>230</td>
+            </tr>
+            <tr style="text-align:center;">
+                <td>6</td>
+                <td>3rd</td>
+                <td>295</td>
+            </tr>
+            <tr style="text-align:center;">
+                <td>7</td>
+                <td>4th</td>
+                <td>380</td>
+            </tr>
+            <tr style="text-align:center;">
+                <td>8</td>
+                <td>5th</td>
+                <td>415</td>
+            </tr>
+            <tr style="text-align:center;">
+                <td>9</td>
+                <td>6th</td>
+                <td>430</td>
+            </tr>
+            <tr style="text-align:center;">
+                <td>10</td>
+                <td>7th</td>
+                <td>550</td>
+            </tr>
+            <tr style="text-align:center;">
+                <td>11</td>
+                <td>8th</td>
+                <td>650</td>
+            </tr>
+            <tr style="text-align:center;">
+                <td>12</td>
+                <td>All Indian Churamoni Examination</td>
+                <td>1800</td>
+            </tr>
+        </table><br>
+        <div style="background-color:red; color:white;  text-align:center; padding:10px;">
+            ***Rebate System is not applicable for<br>
+            All India Churamani Examination (9th Year Exam)<br>
+            N. B. Exam. Fees - 1300/-<br>
+            Center Fees - 500/-
+        </div>
+<br><br>
+<div class="payment">
+        <div class="payment1">
+            <p style="font-size:40px; font-weight: 800;">Hey Guys Thank You!</p><br><br>
+            <p style="font-size:20px;">Let's Scan & Pay</p><br>
+            <small>
+                1. Open your 'PhonePe App'<br>
+                2. Tap this icon &nbsp; &nbsp; <i class="fa-solid fa-qrcode"></i><br>
+                3. Scan and Pay
+            </small>
+        </div>
+        <br><br>
+        <div class="payment2">
+            <img src="images/payment.jpg" alt="payment" style="width:40%;">
+        </div>
+</div>
+    </div>
+
+    <div class="column2">
+        <h2 style="text-align:center;">Rebate Systme <br>
+        (Form Total Fees of Adya to 8th year as <span style="color:red;">Centre fees</span>)
+        </h2><br><br>
+        <table border="2px" style="border-collapse:collapse;">
+            <tr style="text-align:center;">
+                <td>1</td>
+                <td>15-35 students</td>
+                <td>30%</td>
+            </tr>
+            <tr style="text-align:center;">
+                <td>2</td>
+                <td>36 - 99 students</td>
+                <td>35%</td>
+            </tr>
+            <tr style="text-align:center;">
+                <td>3</td>
+                <td>100 - 250 students</td>
+                <td>40%</td>
+            </tr>
+            <tr style="text-align:center;">
+                <td>4</td>
+                <td>251 - 400 students</td>
+                <td>45%</td>
+            </tr>
+            <tr style="text-align:center;">
+                <td>5</td>
+                <td>401 - 750 students</td>
+                <td>50%</td>
+            </tr>
+            <tr style="text-align:center;">
+                <td>6</td>
+                <td>751 - 999 students</td>
+                <td>55%</td>
+            </tr>
+            <tr style="text-align:center;">
+                <td>7</td>
+                <td>100+ students</td>
+                <td>60%</td>
+            </tr>
+        </table><br>
+        <div style="background-color:red; color:white; font-weight:600; padding:20px;">
+            N. B. We have below 15 candidates needed for enrollment. Minimum Payment will be 1500/- (For Eastern Subject) 2500/- (For Western Subject)
+        </div>
+    </div>
+</div>
+<br><br><br>
+<!--ONLINE PAYMENT SECTION END-->
+
+
+<h2 style="text-align:center;">🅰🅳 🅼 🅸 🆂 🆂 🅸🅾🅽 &nbsp;  🆃 🅸 🅼 🅸 🅽 🅶</h2>
+<table border="1px" class="admissiontable">
+    <tr style="text-align:center;">
+        <th>Day</th>
+        <th>Time</th>
+    </tr>
+    <tr style="text-align:center;">
+        <td>Sundayday</td>
+        <td>9.00 AM to 2.00 PM</td>
+    </tr>
+    <tr style="text-align:center;">
+        <td>Monday</td>
+        <td>10.00 AM to 10.00 PM</td>
+    </tr>
+    <tr style="text-align:center;">
+        <td>Tuesday</td>
+        <td>10.00 AM to 10.00 PM</td>
+    </tr>
+    <tr style="text-align:center;">
+        <td>Wednessday</td>
+        <td>10.00 AM to 10.00 PM</td>
+    </tr>
+    <tr style="text-align:center;">
+        <td>Thursday</td>
+        <td>10.00 AM to 10.00 PM</td>
+    </tr>
+    <tr style="text-align:center;">
+        <td>Friday</td>
+        <td>10.00 AM to 10.00 PM</td>
+    </tr>
+    <tr style="text-align:center;">
+        <td>Saturday</td>
+        <td>10.00 AM to 10.00 PM</td>
+    </tr>
+</table>
+<br><br><br><br>
+
+
+   <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+   <div class="elfsight-app-612de37e-b53d-456f-9887-3051e4f75b97"></div>
+
+    <!--------------FOOTER SECTION START-------------->
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo"><h4>Debu Art Academy</h4></a>
+                <p>Certified / Accredited By International Organization for Standardization (9001 : 2015)</p>
+                <a href="https://www.sskalakendra.org/"><img src="images/iso9001.png" alt="iso_certificate" style="width:40%;"></a>
+            </div>
+ 
+            <div class="footer_2">
+                <h4>Quick Links</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="admission.html">Online Admission</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="sitemap.html">Sitemap</a></li>
+                    <li><a href="sitemap.html">Install The App</a></li>
+                    <li><a href="index.html">FAQ's</a></li>
+                </ul>
+            </div>
+ 
+            <div class="footer_3">
+                <h4>Primary</h4>
+                <ul>
+                    <li><a href="privacy.html">Privace Policy</a></li>
+                    <li><a href="terms.html">Terms and Conditions</a></li>
+                    <li><a href="refund.html">Refund Policy</a></li>
+                </ul>
+            </div>
+ 
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+91 9635404140</p>
+                   <p>debuartacademy@gmail.com</p>
+                </div>
+                <ul class="footer_socials">
+                    <li>
+                        <a href="https://www.youtube.com/c/DEBUARTACADEMY"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                    <li>
+                     <a href="https://www.facebook.com/debuartacademy/photos/?ref=page_internal&paipv=0&eav=AfYh967eeRAXHnh8psLqIMDz4mUfDtB5KieAhbjyeUJTXYS6oZIjA0an4WBzTzTuIhs&_rdr"><i class="fa-brands fa-facebook"></i></a>
+                 </li>
+                 <li>
+                     <a href="https://www.instagram.com/_ds_poetry_/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                 </li>
+                 <li>
+                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                 </li>
+                </ul>
+            </div>
+        </div>
+ 
+        
+     
+ 
+     <div class="footer_copyright">
+         <small>&copy; 🅳🅰  🅰🅲🅰🅳 🅴 🅼 🆈 | Created by : <a href="#"><span style="color:#f9a826; font-weight:bold; font-size:0.9rem;">bongsite</span></a></small>
+     </div>
+    </footer>
+    <!--------------FOOTER SECTION END-------------->
+  
+    <!--------------------JAVASCRIPT--------------------> 
+    <script src="main.js"></script>
+</body>
+ </html>
